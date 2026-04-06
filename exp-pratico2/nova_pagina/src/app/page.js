@@ -1,9 +1,11 @@
 import Link from "next/link";
 import estilos from "./page.module.css";
+import Topo from "@/componentes/Topo";
 
 export default function Home() {
   return (
     <div className={estilos.page}>
+      <Topo />
       <main className={estilos.main}>
         <div className={estilos.card_container}>
           <h1>Página Inicial</h1>
