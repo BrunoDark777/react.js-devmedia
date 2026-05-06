@@ -5,7 +5,7 @@ export default function Topo(){
         <nav>
             <Link href="/frontend"></Link>
             <Link href="/backend"></Link>
-            <Link href="mobile"></Link>
+            <Link href="/mobile"></Link>
         </nav>
     )
 }
